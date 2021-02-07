@@ -1,0 +1,65 @@
+body{
+max-width: 320px;
+}
+#nombre{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin: 20px;
+}
+.encabezado{
+    display: flex;
+    flex-direction: column;
+}
+.enlaces{
+    margin: 20px;
+}
+#perfil{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    text-align: center;
+}
+.intereses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+#contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px;
+
+}
+.experiencia{
+    border: 3px dashed rgb(229, 210, 248);
+    margin: 10px;
+}
+
+.estudios{
+    border: 3px dashed rgb(229, 210, 248);
+    margin: 10px;
+}
+
+.informatica{
+    border: 3px dashed rgb(229, 210, 248);
+    margin: 10px;
+}
+
+.idioma{
+    border: 3px dashed rgb(229, 210, 248);
+    margin: 10px;
+}
+
+.contacto{
+    border: 3px solid rgb(229, 210, 248);
+    margin: 10px;
+}
