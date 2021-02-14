@@ -1,0 +1,29 @@
+.encabezado {
+    position: fixed; /*fijamos la posicion de la caja*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0px;
+    top: 0px;
+    bottom: 85%;
+    left: 0%;
+    right: 0%;
+    width: auto;
+    background-color: rgb(156, 198, 238);
+}
+.ul {
+    text-align: right;
+    padding: 0px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    line-height: 30px;
+    text-align: center;
+    color:rgb(10, 10, 10);
+    font-size: 20px;
+}
+.div:hover {
+    background-color: rgb(241, 203, 247);
+    color:purple;
+    cursor:pointer;
+    transition: all 0.4s linear; /* al pasar el raton se pone el color que queremos */

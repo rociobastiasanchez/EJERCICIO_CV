@@ -1,14 +1,14 @@
 'use strict'
 
-// document.body.innerHTML
-// let botonmenu = $('.iconomenu');
-// let menu = $ ('.caja1');
+document.body.innerHTML
+let botonmenu = document.getElementsByClassName("iconomenu");
 
-// botonmenu.click(function(){
-//     if (menu.hasclass('show')){
-//         menu.removeClass('show');
-//     } else{
-//         menu.addClass('show')
+// let menu = document.getElementsById ('mainbox');
+
+// botonmenu.click (function(){
+//     if (menu.transform ()){
+
+//     } else {
+
 //     }
-    
-// });
+// })
