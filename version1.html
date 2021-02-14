@@ -2,41 +2,81 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <!-- ancho de la página igual que el ancho del dsipositivo  -->
+        <!-- <meta name= "viewport" content="width=devide-width, initial-scale =1"> -->
         <title>CV</title>
         <link rel="stylesheet" href="stylecv.css">
     </head>
     <body>
-        <div id= "nombre">
-            <div class="encabezado">
-             <img src="fotomia.jpg" alt="Mifoto" style="margin: 0px;" width="235px" height="300px">
-             <h1 style="color: rgb(250, 27, 165); text-align: center;"><u>Rocío Bastía Sánchez</u></h1>
-            </div>
-            <div class="enlaces">
+        
+        <div class="show">
+            <div id="mainbox">
+                <div class="iconomenu">Menú</div>
+              <div class="caja1"><a href="#referencia1" style="color: black;">Sobre mí</a> </div>
+             <div class= "caja1"><a href="#referencia2" style="color: black;">Experencia Profesional</a></div>
+             <div class= "caja1"><a href="#referencia3" style="color: black;">Estudios</a></div>
+             <div class="caja1"><a href="#referencia4" style="color: black;">Habilidades técnicas</a></div>
+             <div class="caja1"><a href="#referencia5" style="color: black;">Portfolio</a></div>
+             <div class="caja1"><a href="#referencia6" style="color: black;">Idiomas</a></div>
+             <div class= "caja1"><a href="#referencia7" style="color: black;">Contacto</a></div>
+             
+             </div>
+         </div>
+             
+            <div id= "fotos">
+             <div class="fotofondo">
+              <img src="playa2.jpg" alt="Playa" width="1400px", height="700px"style="position: absolute; top: 10px; left: 50px; z-index: -1;">
+              <!--Con z-index ponemos una imagen encima de otra-->
+              </div>
+             <div class="fotocentral">
+                <div id="fotomia">
+               <img src="fotomia.jpg" alt="Mifoto" style="margin: 0px;" width="240px" height="300px" style= "top: 20px; left: 20px; z-index: 1; position: absolute;">
+             </div>
+                <div id="nombre">
+                 <h1 style="color: rgb(250, 27, 165); text-align: center;"><u>Rocío Bastía Sánchez</u></h1>
+                  <div id="descripcion">
+                 <h2 style="margin: 0%;">Licenciada en Geología</h2>
+                 <p><i> Universidad Complutense de Madrid 2007-2013 </i></p>
+                  </div>
+                </div>
+                <div id="descripcion">
+                 <h2 style="margin: 0%;">Master GIS</h2>
+                 <p><i> ESRI España 2020-2021 </i></p>
+                </div>
+             </div>
+             </div>
+    
+        
+            <!-- <div class="enlaces">
                 <a href="">Linkedin</a>
-            </div>
+            </div> -->
         </div>
         <div id="perfil">
             <div class="texto">
-                <h2>Licenciada en Geología</h2>
-                <p><i> Universidad Complutense de Madrid 2007-2013 </i></p>
-                <p>
+                <div id="titulo">
+                    <a name = "referencia1"></a>
+                <p><h1>Sobre mí</h1></p>
+                <p></div>
                     Responsable, resolutiva, organizada,
                     y con capacidad para trabajar en grupo.
                     Trabajadora, y con ganas de aprender
                     para mejorar mis habilidades y cualidades
                     profesionales.
-
                 </p>
             </div>
             <div class="intereses">
-                <img src="ciencia.png" alt="ciencia" width="50px" height="50px">
-                <img src="medio ambiente.jpg" alt="ecologia" width="50px" height="50px">
-                <img src="corredora.jpg" alt="deporte" width="50px" height="50px">
+                <p>Cabe destacar mi interés por la ciencia y el medio ambiente, así como el deporte en cuanto a hobbies</p>
+                <div id="iconos">
+                 <img src="ciencia.png" alt="ciencia" width="50px" height="50px">
+                 <img src="medio ambiente.jpg" alt="ecologia" width="50px" height="50px">
+                 <img src="corredora.jpg" alt="deporte" width="50px" height="50px">
+                </div>
             </div>
         </div>
         <div id="contenido">
             <div class="experiencia">
-                <h3>Experencia Profesional</h3>
+                <a name = "referencia2"></a>
+                <h1>Experencia Profesional</h1>
               <ul>
                   <li>
                    <p>Julio 2017-Actualidad <b>Gesnaer</b>   <i>Delineante</i> </p>
@@ -57,7 +97,8 @@
               </ul>
             </div>
             <div class="estudios">
-                <h3>Estudios</h3>
+                <a name = "referencia3"></a>
+                <h1>Estudios</h1>
                 <ul>
                     <li>
                         <p>Octubre 2020-actualidad <b>Master GIS</b></p>
@@ -84,7 +125,8 @@
 
             </div>
             <div class="informatica">
-                <h3>Habilidades Informáticas</h3>
+                <a name = "referencia4"></a>
+                <h1>Habilidades Informáticas</h1>
                 <ul>
                     <li>Python: nivel bajo</li>
                     <li>HTML: nivel bajo</li>
@@ -95,8 +137,53 @@
                     <li>Microsoft Office: nivel avanzado</li>
                 </ul>
             </div>
+            <div class="portfolio">
+                <a name = "referencia5"></a>
+                <h1>Portfolio</h1>
+                <div id="GIS">
+                    <h2 style="margin: 30px; color: cornflowerblue;"><u><b>Proyectos GIS</b></u></h2>
+                    <div id="muestras">
+                      <div class="imagenes">
+                        <img src="CapturaStoryMap.JPG" alt="StoryMap" style="margin: 0px;border: 3px solid rgb(156, 198, 238) ;" width="600px" height="300px"></img>
+                        <a href="https://storymaps.arcgis.com/stories/caf8387c8ed2483580b8ae4b82a4b412" style="text-align: center; color: cornflowerblue;"><h2>StoryMap</h2></a>
+                       </div>
+                    
+                      <div class="imagenes">
+                        <img src="Captura_Appweb.JPG" alt="Aplicación Web" style="margin: 0px; border: 3px solid rgb(156, 198, 238) ;width: 600px; height: 300px;">
+                        <a href="https://esrimastergis.maps.arcgis.com/apps/webappviewer/index.html?id=d3764fc6f1204172a77d44c94635f151" style="text-align: center; color: cornflowerblue;"><h2>AppWeb</h2></a>
+                       </div>
+                      <div class="imágenes">
+                        <img src="Captura_CuadromandosAlcobendas.JPG" alt="Dashboard Alumbrado Alcobendas" style="margin: 0px;border: 3px solid rgb(156, 198, 238) ; width: 600px; height: 300px;">
+                        <a href="https://esrimastergis.maps.arcgis.com/apps/opsdashboard/index.html#/a5b4c03ec9a64d748bd7996f21c63b4e" style="text-align: center; color: cornflowerblue;"><h2>Alumbrado Alcobendas</h2></a>
+                       </div>
+
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div id="CAD">
+                    <h2 style="margin: 30px; color: cornflowerblue;"><u><b>Proyectos Revit/AutoCAD</b></u></h2>
+                    <br>
+                    <div id="muestras">
+
+                     <div id="imagenes">
+                        <img src="CASABUNKER.png" alt="CasaBunker" style="margin: 0px;border: 3px solid rgb(156, 198, 238) ;" width="600px" height="300px"></img>
+                        <h2 style="text-align: center; color: cornflowerblue;">Render Casa Bunker</h2>
+                     </div>
+                     <div id="imagenes">
+                        <img src="PlanoDetalle.jpg" alt="PlanoDetalle" style="margin: 0px;border: 3px solid rgb(156, 198, 238) ;" width="600px" height="300px"></img>
+                        <h2 style="text-align: center; color: cornflowerblue;">Plano de detalle de instalaciones</h2>
+                     </div>
+                    </div>
+
+                </div>
+
+            </div>
             <div class="idioma">
-                <h3>Idiomas</h3>
+                <a name = "referencia6"></a>
+                <h1>Idiomas</h1>
                 <ul>
                     <li>Castellano: natal</li>
                     <li>Inglés: Intermedio bajo</li>
@@ -104,18 +191,18 @@
 
             </div>
             <div class="contacto">
-                <h3>Contacto</h3>
+                <a name = "referencia7"></a>
+                <h1>Contacto|</h1>
                 <ul>
-                    <li>Email: rociobastiasanchez@gmail.com</li>
-                    <li>Teléfono: XXXXX</li>
-                    <li>Ubicación: Madrid (España)</li>
-                </ul>
-
+                 <div id="info">Email: rociobastiasanchez@gmail.com</div>
+                 <div id="info">Teléfono: 629468304</div>
+                 <div id="info">Ubicación: Madrid (España)</div>
+                 </ul>
             </div>
 
         </div>
         
-
+     <script src="version1.js"></script>
 
     </body>
 
