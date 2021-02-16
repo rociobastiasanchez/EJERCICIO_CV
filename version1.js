@@ -1,14 +1,7 @@
 'use strict'
 
-document.body.innerHTML
-let botonmenu = document.getElementsByClassName("iconomenu");
 
-// let menu = document.getElementsById ('mainbox');
+function imprimir (){
+    window.print();
+};
 
-// botonmenu.click (function(){
-//     if (menu.transform ()){
-
-//     } else {
-
-//     }
-// })

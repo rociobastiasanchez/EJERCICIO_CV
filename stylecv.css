@@ -1,6 +1,7 @@
-/* body{
-max-width: 320px;
-} */
+body{
+max-width: 1400px;
+margin: 0 auto;
+}
 
 #mainbox {
     position: fixed; /*fijamos la posicion de la caja*/
@@ -31,9 +32,9 @@ max-width: 320px;
     cursor:pointer;
     transition: all 0.4s linear; /* al pasar el raton se pone el color que queremos */
 }
-.iconomenu{
+/* .iconomenu{
     display: none;
-}
+} */
 
 #fotos{
 display: flex;
@@ -70,10 +71,6 @@ margin-top: 10px;
     align-items: center;
 }
 
-/* .enlaces{
-    margin: 20px;
-} */
-
 
 #perfil{
  display: flex;
@@ -88,8 +85,6 @@ margin-top: 10px;
 .perfil2{
     display: flex;
     flex-direction: row;
-
-
 
 }
 
@@ -116,7 +111,7 @@ margin-top: 10px;
 
 .iconos {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
 }
 
@@ -138,16 +133,19 @@ margin-top: 10px;
 .estudios{
     border: 3px dashed rgb(229, 210, 248);
     margin: 10px;
+    padding:20px;
 }
 
 .informatica{
-    border: 3px dashed rgb(229, 210, 248);
+    border: 3px solid rgb(156, 198, 238);
     margin: 10px;
+    padding: 20px;
 }
 
 .portfolio{
     border: 3px dashed rgb(229, 210, 248);
     margin: 10px;
+    padding: 20px;
 }
 
 #muestras {
@@ -168,8 +166,9 @@ margin-top: 10px;
 }
 
 .idioma{
-    border: 3px dashed rgb(229, 210, 248);
+    border: 3px solid rgb(156, 198, 238);
     margin: 10px;
+    padding: 20px;
 }
 
 .contacto{
@@ -185,27 +184,31 @@ margin-top: 10px;
     background-color: rgb(156, 198, 238);
 }
 
+#boton {
+    height: 20px;
+    width: 80px;
+}
+
 @media all and (max-width: 768px){
     #mainbox {
         display: block;
         padding: 0%;
         margin: 0px;
         width: 100%;
-        height: 10%;
+        height: 40%;
         right: 0;
-        left: 0%;
+        left: 80%;
         background-color: rgb(156, 198, 238);
         
     }
     .caja1 {
-        display: block;
-        padding: 0px;
+        padding: 5px;
         color:rgb(10, 10, 10);
-        margin: 0px;
-        line-height: 30px;
+        margin: 5px;
+        line-height: auto;
         text-align: right;
-        font-size: 20px;
-        transform: translateX(-100%); /*Para que desaparezca el menu*/
+        font-size: 13px;
+        /* transform: translateX(-100%); Para que se mueva de posición  */
 
     }
     .caja1:hover {
