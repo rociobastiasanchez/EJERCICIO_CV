@@ -1,0 +1,300 @@
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+    line-height: normal;
+    margin: 0 auto;
+    width: 85%;
+    max-width: 1400px;
+}
+.encabezado{
+    background-color: rgb(156, 198, 238);
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    text-align: center;
+
+}
+#mainbox {
+    margin: 0 auto;
+    width: 100%;
+}
+
+li:hover {
+    background-color: rgb(241, 203, 247);
+    color:purple;
+    cursor:pointer;
+    transition: all 0.4s linear; /* al pasar el raton se pone el color que queremos */
+}
+
+#mainbox ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-content: right;
+}
+
+  #mainbox ul li{
+     display: inline-block;
+     
+ }
+   #mainbox ul li a{
+       display: block;
+       align-content: space-between;
+       line-height: 30px;
+       color:rgb(10, 10, 10);
+       text-decoration: none;
+       font-size: 20px;
+       padding: 20px;
+
+ }
+
+.content{
+    padding-top: 12px;
+}
+
+#iconomenu{
+    display: none;
+}
+
+#fotos{
+display: flex;
+flex-direction: row;
+margin-top: 10px;
+align-content: center;
+}
+
+.fotocentral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 50px;
+    right: 50px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: white;
+}
+
+#fotomia {
+    display: flex;
+    justify-content: center;
+}
+
+.nombre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
+
+#descripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    border: 5px;
+    background-color: plum;
+    align-items: center;
+}
+
+
+#perfil{
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ margin: 30px;
+ padding: 20px;
+ border: 3px dashed rgb(229, 210, 248);
+}
+
+.perfil2{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-self: left;
+    margin: 30px;
+    
+}
+#titulo {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .intereses{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0px;
+} */
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding-top: 20px;
+
+}
+.experiencia{
+    border: 3px solid rgb(156, 198, 238);
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+.estudios{
+    border: 3px dashed rgb(229, 210, 248);
+    margin: 10px;
+    padding:20px;
+}
+
+.informatica{
+    border: 3px solid rgb(156, 198, 238);
+    margin: 10px;
+    padding: 20px;
+}
+
+.portfolio{
+    border: 3px dashed rgb(229, 210, 248);
+    margin: 10px;
+    padding: 20px;
+}
+
+#muestras {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: auto;
+    flex-wrap: wrap; /*wrap hace que se pongan los objetos en diferentes lineas cuadno ya han ocupado una*/
+  
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.idioma{
+    border: 3px solid rgb(156, 198, 238);
+    margin: 10px;
+    padding: 20px;
+}
+.piepagina{
+    background-color: rgb(156, 198, 238);
+    padding: 3px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+    padding: 4px;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: rgb(156, 198, 238);
+}
+
+#boton {
+    height: 20px;
+    width: 80px;
+}
+
+@media all and (max-width: 768px){
+    .encabezado{
+        width: 100%;
+        padding: 0%;
+        text-align: right;
+    }
+
+    #mainbox ul{
+        display: none;
+        padding: 7px;
+    }
+
+    #mainbox ul.show{
+        display: block;
+    }
+    
+    #mainbox ul li{
+         display: block;
+         
+     }
+       #mainbox ul li a{
+           display: block;
+           align-content: right;
+           right: 0;
+           line-height: 30px;
+           color:rgb(10, 10, 10);
+           text-decoration: none;
+           padding: 7px;
+    
+     }
+  
+    #iconomenu {
+        display: block;
+        padding: 0%;
+        color:rgb(10, 10, 10);
+        margin: 10px;
+        line-height: 30px;
+        text-align: right;
+        font-size: 20px;
+    }
+    #iconomenu:hover{
+        cursor:pointer;
+    }
+    
+    .fotocentral{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 50px;
+        margin-top: 120px;
+        margin-bottom: 30px;
+        padding: 10px;
+        background-color: white;
+    }
+
+    .imagenes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    .imagenes img{
+        width: 400px;
+        height: 200px;
+    }
+
+    #imagenes img{
+        width: 400px;
+        height: 200px;
+    }
+
+    .contacto{
+        display: block;
+    }
+
+
+}
