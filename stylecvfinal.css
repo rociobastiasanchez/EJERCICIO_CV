@@ -296,7 +296,7 @@ align-content: center;
         display: block;
     }
 
-    body {
+    body html {
      line-height: normal;
      margin: 0 auto;
      width: 85%;
@@ -381,7 +381,7 @@ align-content: center;
         display: block;
     }
 
-    body {
+    body html {
      line-height: normal;
      margin: 0 auto;
      width: 85%;
