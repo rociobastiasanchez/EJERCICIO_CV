@@ -300,6 +300,7 @@ align-content: center;
      line-height: normal;
      margin: 0 auto;
      width: 85%;
+     max-width: 768px;
     }
 
 
@@ -385,6 +386,7 @@ align-content: center;
      line-height: normal;
      margin: 0 auto;
      width: 85%;
+     max-width: 320px;
     }
 
 
