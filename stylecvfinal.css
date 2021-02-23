@@ -350,6 +350,14 @@ align-content: center;
         cursor:pointer;
     }
     
+    .fotofondo{
+        width: 768px;
+        height: 200px;
+        z-index: -50;
+        margin: 100px 0;
+        padding: 0px;
+    }
+
     .fotocentral{
         display: flex;
         flex-direction: column;
@@ -387,6 +395,14 @@ align-content: center;
      margin: 0 auto;
      width: 85%;
      max-width: 320px;
+    }
+
+    .fotofondo{
+        width: 768px;
+        height: 200px;
+        z-index: -50;
+        margin: 100px 0;
+        padding: 0px;
     }
 
 
